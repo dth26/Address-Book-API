@@ -1,6 +1,6 @@
 # Address-Book-API
 
-To start the rest api service run ```flask run --port=80```
+To start the rest api service run `flask run --port=80`
 
 
 	Method: POST
@@ -25,7 +25,7 @@ To start the rest api service run ```flask run --port=80```
 
 
 	Method: DELETE
-        URL : /people/contact/<name>
+	URL : /people/contact/<name>
 	Payload: None
 	Response : {'result': string}
 
@@ -34,7 +34,7 @@ To start the rest api service run ```flask run --port=80```
 
 
 	Method: GET
-        URL : /people/contact
+	URL : /people/contact
  	Request Params :  pageSize={}&page={}&query={}
 	Payload:  None
 	Response : [{'name': string,'number': string}]
